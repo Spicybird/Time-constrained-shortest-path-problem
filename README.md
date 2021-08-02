@@ -10,7 +10,7 @@ Given a network, try to find the shortest path from an origin node to a destinat
 2. Implement output process and encpasulte the process into a function.
 3. Implement a heuristic for attain an upper bound solution through the information provided by the lower bound solution.
 4. Visualization: gap evolution curve.
-5. Find more complicated and solvable numerical examples.
+5. Find more complicated and solvable numerical examples (maybe chapter exercises from MIT Ahuja textbook and RCSPP can provide some examples).
 6. Integrate branch-and-bound algorithm with Lagrangian relaxation.
 
 ## Reference
