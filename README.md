@@ -20,3 +20,4 @@ Run main.py. The console will automatically show messages for you to find the ou
 ## Reference
 [1] R. K. Ahuja, T. L. Magnanti, and J. B. Orlin, Network Flows: Theory, Algorithms, and Applications. Prentice Hall, 1993.
 [2] P. Li, “Path4GMNS Package,” 2021. [Online]. Available: https://github.com/jdlph/Path4GMNS
+[3] airqzhu, "lagrangian-relaxation, GitHub Repository" https://github.com/airqzhu/lagrangian-relaxation
