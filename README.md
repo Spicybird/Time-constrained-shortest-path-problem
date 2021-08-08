@@ -9,6 +9,11 @@ Given a network, try to find the shortest path from an origin node to a destinat
 
 Run main.py. The console will automatically show messages for you to find the output results. An output folder will be generated and all output files will be put into it.
 
+## Bound evolution curve
+
+![bound_evolution_curve](https://user-images.githubusercontent.com/47074370/128622294-025daaad-a5ef-4200-a05f-d6d2ce40b290.png)
+
+
 ## TODOList
 - [x] Refactor the structure of the code. 
 - [x] Implement output process and encpasulte the process into a function.
@@ -16,11 +21,6 @@ Run main.py. The console will automatically show messages for you to find the ou
 - [x] Visualization: gap evolution curve.
 - [ ] Find more complicated and solvable numerical examples (maybe chapter exercises from MIT Ahuja textbook and RCSPP can provide some examples).
 - [ ] Integrate branch-and-bound algorithm with Lagrangian relaxation.
-
-## Bound evolution curve
-
-![bound_evolution_curve](https://user-images.githubusercontent.com/47074370/128622294-025daaad-a5ef-4200-a05f-d6d2ce40b290.png)
-
 
 ## Reference
 [1] R. K. Ahuja, T. L. Magnanti, and J. B. Orlin, Network Flows: Theory, Algorithms, and Applications. Prentice Hall, 1993.
