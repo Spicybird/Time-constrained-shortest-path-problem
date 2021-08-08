@@ -7,7 +7,7 @@ Given a network, try to find the shortest path from an origin node to a destinat
 
 ## How to use this source code?
 
-Run main.py. The console will automatically show messages for you to find the output results.
+Run main.py. The console will automatically show messages for you to find the output results. An output folder will be generated and all output files will be put into it.
 
 ## TODOList
 - [x] Refactor the structure of the code. 
