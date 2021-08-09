@@ -52,8 +52,8 @@ class Agent:
         self.sub_gradient = self.total_time - self.time_threshold
 
     def update_langrangian_multiplier(self, step_size):
-        self.lagrangian_multiplier += step_size * self.sub_gradient
-        if self.lagrangian_multiplier < 0:
+        self.lagrangian_multiplier += step_size * self.sub_gradient # mu^(k+1) := mu^k + theta * (sum_ij t_ij * x_ij - T)
+        if self.lagrangian_multiplier < 0: # the Lagrangian multiplier mu should be a nonnegative value
             self.lagrangian_multiplier = 0
 
 
